@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="A description of the page">
+   <meta name="author" content="Codescandy">
+   {{> head }}
+   <title>Table - TwilwindCSS Components Examples - Vibe UI</title>
+
+</head>
+
+<body>
+   {{> header }}
+   </div>
+   <div class="mx-auto max-w-6xl flex">
+      {{> sidebar }}
+      <!-- Main Start -->
+      <main class="w-full p-5">
+         <div>
+            <!-- Docs Head Start -->
+            <div class="pb-5">
+               <h1 class="text-3xl font-black text-slate-800 mb-2">Table</h1>
+               <h2 class="text-slate-600 text-sm">
+                  Examples Table
+               </h2>
+            </div>
+            <!-- /. Docs Head End -->
+
+            <!-- Basic Table -->
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-semibold mb-1"> Basic Table</h3>
+                  <p class="text-sm text-slate-500">
+                     Basic Table
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="overflow-x-auto">
+                     <table class="min-w-full divide-y-2 divide-slate-200 text-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">ID</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Customer</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Date</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Invoice</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-left font-medium">
+                            <tr>
+                              <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#001</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Jitu Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 30, 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,200</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#002</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Sandip Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 28 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$2,500</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#003</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Anita Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 18 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$6,420</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#004</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Dilip Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 12 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,452</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                  </div>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- /.Basic Table -->
+
+             <!-- Light Head Table -->
+             <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-semibold mb-1"> Light Head Table</h3>
+                  <p class="text-sm text-slate-500">
+                     Light Head Table
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="overflow-x-auto">
+                     <table class="min-w-full divide-y-2 divide-slate-200 text-sm">
+                        <thead class="bg-slate-100">
+                            <tr>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">ID</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Customer</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Date</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Invoice</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-left font-medium">
+                            <tr>
+                              <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#001</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Jitu Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 30, 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,200</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#002</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Sandip Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 28 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$2,500</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#003</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Anita Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 18 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$6,420</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#004</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Dilip Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 12 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,452</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                  </div>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- /.Light Head Table -->
+
+
+             <!-- Striped Table -->
+             <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-semibold mb-1"> Striped Table</h3>
+                  <p class="text-sm text-slate-500">
+                     Striped Table
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="overflow-x-auto">
+                     <table class="min-w-full divide-y-2 divide-slate-200 text-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">ID</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Customer</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Date</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Invoice</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-left font-medium">
+                            <tr class="bg-slate-100">
+                              <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#001</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Jitu Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 30, 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,200</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#002</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Sandip Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 28 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$2,500</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr class="bg-slate-100">
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#003</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Anita Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 18 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$6,420</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#004</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Dilip Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 12 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,452</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                  </div>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- /.Striped Table -->
+
+             <!-- Hoverable Table -->
+             <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-semibold mb-1"> Hoverable Table</h3>
+                  <p class="text-sm text-slate-500">
+                     Hoverable Table
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="overflow-x-auto">
+                     <table class="min-w-full divide-y-2 divide-slate-200 text-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">ID</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Customer</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Date</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Invoice</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-left font-medium">
+                            <tr class="hover:bg-slate-100">
+                              <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#001</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Jitu Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 30, 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,200</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-100">
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#002</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Sandip Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 28 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$2,500</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-100">
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#003</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Anita Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 18 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$6,420</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr class="hover:bg-slate-100">
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#004</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Dilip Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 12 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,452</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                  </div>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- /.Hoverable Table -->
+
+
+            <!-- Bordered Table -->
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-semibold mb-1"> Bordered Table</h3>
+                  <p class="text-sm text-slate-500">
+                     Bordered Table
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="overflow-x-auto">
+                     <table class="min-w-full divide-y-2 divide-slate-200 text-sm border border-slate-200">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">ID</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Customer</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Date</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Invoice</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-left font-medium">
+                            <tr>
+                              <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#001</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Jitu Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 30, 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,200</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#002</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Sandip Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 28 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$2,500</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#003</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Anita Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 18 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$6,420</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">#004</a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Dilip Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 12 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,452</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                  </div>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- /.Bordered Table -->
+
+             <!-- Checkbox Table -->
+             <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-semibold mb-1"> Checkbox Table</h3>
+                  <p class="text-sm text-slate-500">
+                     Checkbox Table
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="overflow-x-auto">
+                     <table class="min-w-full divide-y-2 divide-slate-200 text-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left"> <div class="flex items-center">
+                                 <input class="form-checkbox border-slate-400 rounded" type="checkbox" id="SelectAll">
+                                 <label for="SelectAll" class="text-sm ml-2 text-slate-600 sr-only">Select All</label>
+                              </div></th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Customer</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Date</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Invoice</th>
+                                <th scope="col" class="whitespace-nowrap px-5 py-3  text-left">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-left font-medium">
+                            <tr>
+                              <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600"> <div class="flex items-center">
+                                 <input class="form-checkbox border-slate-400 rounded" type="checkbox" id="default-checkbox-1">
+                                 <label for="default-checkbox-1" class="text-sm ml-2 text-slate-600 sr-only">Checkbox Option</label>
+                              </div></a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Jitu Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 30, 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,200</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">  <div class="flex items-center">
+                                 <input class="form-checkbox border-slate-400 rounded" type="checkbox" id="default-checkbox-2">
+                                 <label for="default-checkbox-2" class="text-sm ml-2 text-slate-600 sr-only">Checkbox Option</label>
+                              </div>  </a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Sandip Chauhan</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 28 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$2,500</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600">  <div class="flex items-center">
+                                 <input class="form-checkbox border-slate-400 rounded" type="checkbox" id="default-checkbox-3">
+                                 <label for="default-checkbox-3" class="text-sm ml-2 text-slate-600 sr-only">Checkbox Option</label>
+                              </div>  </a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Anita Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 18 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$6,420</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            <tr>
+                                <th scope="row" class="px-5 py-3"><a href="#" class="hover:text-indigo-600"> <div class="flex items-center">
+                                 <input class="form-checkbox border-slate-400 rounded" type="checkbox" id="default-checkbox-4">
+                                 <label for="default-checkbox-4" class="text-sm ml-2 text-slate-600 sr-only">Checkbox Option</label>
+                              </div>  </a></th>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">Dilip Parmar</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">October 12 2023</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600">$1,452</td>
+                                <td class="whitespace-nowrap px-5 py-3 text-slate-600"><a href="javascript:void(0);" class="hover:text-indigo-600">View More </a></td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                  </div>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- /.Checkbox Table -->
+
+         </div>
+      </main>
+      <!-- Main End -->
+   </div>
+   <!-- Main JS -->
+   <script type="module" src="./asstes/js/main.js"></script>
+</body>
+
+</html>

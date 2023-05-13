@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="A description of the page">
+   <meta name="author" content="Codescandy">
+   {{> head }}
+   <title>Cards - TwilwindCSS Components Examples - Vibe UI</title>
+
+</head>
+
+<body>
+   {{> header }}
+   <div class="mx-auto max-w-6xl flex">
+      {{> sidebar }}
+      <main class="w-full p-5">
+         <div>
+            <!-- Docs Title Start -->
+            <div class="pb-5">
+               <h1 class="text-3xl font-black text-slate-800 mb-2">Button</h1>
+               <h2 class="text-slate-600 text-sm">
+                  se different button styles for actions in forms, dialogs, and more
+                  with support for multiple sizes, states, and more.
+               </h2>
+            </div>
+            <!-- Docs Head End -->
+            <!-- Button Start -->
+            <div class="py-6">
+               <div class="mb-5">
+                  <div>
+                     <h3 class="text-xl font-bold text-slate-800">
+                        Solid color
+                     </h3>
+                     <p class="text-slate-500 text-sm">
+                        Predefined solid color button styles.
+                     </p>
+                  </div>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <button type="button"
+                        class="bg-indigo-500 hover:bg-indigo-600 py-3 px-5 text-sm font-medium rounded-md text-white transition-all">
+                        Primary
+                     </button>
+                     <button type="button"
+                        class="bg-green-500 hover:bg-green-600 py-3 px-5 text-sm font-medium rounded-md text-white transition-all">
+                        Success
+                     </button>
+                     <button type="button"
+                        class="bg-amber-500 hover:bg-amber-600 py-3 px-5 text-sm font-medium rounded-md text-white transition-all">
+                        Warning
+                     </button>
+                     <button type="button"
+                        class="bg-red-500 hover:bg-red-600 py-3 px-5 text-sm font-medium rounded-md text-white transition-all">
+                        Danger
+                     </button>
+                     <button type="button"
+                        class="bg-cyan-500 hover:bg-cyan-600 py-3 px-5 text-sm font-medium rounded-md text-white transition-all">
+                        Info
+                     </button>
+                     <button type="button"
+                        class="bg-gray-500 hover:bg-gray-600 py-3 px-5 text-sm font-medium rounded-md text-white transition-all">
+                        Light
+                     </button>
+                     <button type="button"
+                        class="bg-gray-700 hover:bg-gray-900 py-3 px-5 text-sm font-medium rounded-md text-white transition-all">
+                        Dark
+                     </button>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl font-bold text-slate-800">
+                     Outline Button
+                  </h3>
+                  <p class="text-slate-500 text-sm">Outline buttons — Buttons.</p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <button type="button"
+                        class="hover:bg-violet-600 py-3 px-5 text-sm font-medium rounded-md text-violet-600 hover:text-violet-50 border-2 border-violet-600 transition-all">
+                        Primary
+                     </button>
+                     <button type="button"
+                        class="hover:bg-green-600 py-3 px-5 text-sm font-medium rounded-md text-green-600 hover:text-green-50 border-2 border-green-600 transition-all">
+                        Success
+                     </button>
+                     <button type="button"
+                        class="hover:bg-amber-600 py-3 px-5 text-sm font-medium rounded-md text-amber-600 hover:text-amber-50 border-2 border-amber-600 transition-all">
+                        Warning
+                     </button>
+                     <button type="button"
+                        class="hover:bg-red-600 py-3 px-5 text-sm font-medium rounded-md text-red-600 hover:text-red-50 border-2 border-red-600 transition-all">
+                        Danger
+                     </button>
+                     <button type="button"
+                        class="hover:bg-cyan-600 py-3 px-5 text-sm font-medium rounded-md text-cyan-600 border-2 hover:text-cyan-50 border-cyan-600 transition-all">
+                        Info
+                     </button>
+                     <button type="button"
+                        class="hover:bg-gray-400 py-3 px-5 text-sm font-medium rounded-md text-gray-700 border-2 hover:text-gray-50 transition-all border-gray-400">
+                        Light
+                     </button>
+                     <button type="button"
+                        class="hover:bg-gray-900 py-3 px-5 text-sm font-medium rounded-md text-gray-900 border-2 hover:text-gray-50 transition-all border-gray-900">
+                        Dark
+                     </button>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+               <div class="my-3"></div>
+            </div>
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl font-bold text-slate-800">Ghost Button</h3>
+                  <p class="text-slate-500 text-sm">
+                     Predefined ghost color button styles.
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <button type="button"
+                        class="hover:bg-indigo-100 py-3 px-5 text-sm font-medium rounded-md text-indigo-600 transition-all">
+                        Primary
+                     </button>
+                     <button type="button"
+                        class="hover:bg-green-100 py-3 px-5 text-sm font-medium rounded-md text-green-600 transition-all">
+                        Success
+                     </button>
+                     <button type="button"
+                        class="hover:bg-amber-100 py-3 px-5 text-sm font-medium rounded-md text-amber-600 transition-all">
+                        Warning
+                     </button>
+                     <button type="button"
+                        class="hover:bg-red-100 py-3 px-5 text-sm font-medium rounded-md text-red-600 transition-all">
+                        Danger
+                     </button>
+                     <button type="button"
+                        class="hover:bg-cyan-100 py-3 px-5 text-sm font-medium rounded-md text-cyan-600 transition-all">
+                        Info
+                     </button>
+                     <button type="button"
+                        class="hover:bg-gray-100 py-3 px-5 text-sm font-medium rounded-md text-gray-600 transition-all">
+                        Light
+                     </button>
+                     <button type="button"
+                        class="hover:bg-gray-200 py-3 px-5 text-sm font-medium rounded-md text-gray-900 transition-all">
+                        Dark
+                     </button>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl font-bold text-slate-800">Soft Button</h3>
+                  <p class="text-slate-500 text-sm">
+                     Predefined soft color button styles.
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <button type="button"
+                        class="hover:bg-indigo-600 bg-indigo-100 py-3 px-5 text-sm font-medium rounded-md text-indigo-600 hover:text-indigo-100 transition-all">
+                        Primary
+                     </button>
+                     <button type="button"
+                        class="hover:bg-green-600 bg-green-100 py-3 px-5 text-sm font-medium rounded-md text-green-600 hover:text-green-100 transition-all">
+                        Success
+                     </button>
+                     <button type="button"
+                        class="hover:bg-amber-600 bg-amber-100 py-3 px-5 text-sm font-medium rounded-md text-amber-600 hover:text-amber-100 transition-all">
+                        Warning
+                     </button>
+                     <button type="button"
+                        class="hover:bg-red-600 bg-red-100 py-3 px-5 text-sm font-medium rounded-md text-red-600 hover:text-red-100 transition-all">
+                        Danger
+                     </button>
+                     <button type="button"
+                        class="hover:bg-cyan-600 bg-cyan-100 py-3 px-5 text-sm font-medium rounded-md text-cyan-60 hover:text-cyan-100 transition-all">
+                        Info
+                     </button>
+                     <button type="button"
+                        class="hover:bg-gray-200 bg-gray-100 py-3 px-5 text-sm font-medium rounded-md text-gray-600 hover:text-gray-900 transition-all">
+                        Light
+                     </button>
+                     <button type="button"
+                        class="hover:bg-gray-300 bg-gray-200 py-3 px-5 text-sm font-medium rounded-md text-gray-900 hover:text-gray-900 transition-all">
+                        Dark
+                     </button>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl font-bold text-slate-800">
+                     Rounded Button
+                  </h3>
+                  <p class="text-slate-500 text-sm">
+                     Rounded buttons examples. Use the
+                     <code class="text-red-500">.rounded-full</code> utility class to
+                     make avatars circular.
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <button type="button"
+                        class="hover:bg-indigo-600 bg-indigo-100 py-3 px-5 text-sm font-medium rounded-full text-indigo-600 hover:text-indigo-100 transition-all">
+                        Primary
+                     </button>
+                     <button type="button"
+                        class="hover:bg-green-600 bg-green-100 py-3 px-5 text-sm font-medium rounded-full text-green-600 hover:text-green-100 transition-all">
+                        Success
+                     </button>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- Button End -->
+         </div>
+      </main>
+   </div>
+   <!-- Main JS -->
+   <script type="module" src="./asstes/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="A description of the page">
+   <meta name="author" content="Codescandy">
+   {{> head }}
+   <title> Alert - TwilwindCSS Components Examples - Vibe UI </title>
+
+</head>
+
+<body>
+   {{> header }}
+
+   <div class="mx-auto max-w-6xl flex">
+      {{> sidebar }}
+      <!-- Main Start -->
+      <main class="w-full p-5">
+         <div>
+            <!-- Docs Title Start -->
+            <div class="pb-5">
+               <h1 class="text-3xl font-black text-slate-800 mb-2">Alert</h1>
+               <h2 class="text-slate-600 text-sm">
+                  Examples of alert components build with TailwindCSS.
+               </h2>
+            </div>
+            <!-- Docs Head End -->
+
+            <!-- Alert Start -->
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-bold">
+                     Soft color variants
+                  </h3>
+                  <p class="text-sm text-slate-500">
+                     Alert components example with soft color variants.
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="space-y-4">
+                        <div class="bg-indigo-100 p-3 px-4 rounded-md text-indigo-700 border-indigo-300 border">
+                           This is a primary alert—check it out!
+                        </div>
+                        <div class="bg-green-100 p-3 px-4 rounded-md text-green-700 border-green-300 border">
+                           This is a success alert—check it out!
+                        </div>
+                        <div class="bg-amber-100 p-3 px-4 rounded-md text-amber-700 border-amber-300 border">
+                           This is a danger alert—check it out!
+                        </div>
+                        <div class="bg-red-100 p-3 px-4 rounded-md text-red-700 border-red-300 border">
+                           This is a danger alert—check it out!
+                        </div>
+                        <div class="bg-cyan-100 p-3 px-4 rounded-md text-cyan-700 border-cyan-300 border">
+                           This is a info alert—check it out!
+                        </div>
+                        <div class="bg-gray-100 p-3 px-4 rounded-md text-gray-700 border-gray-300 border">
+                           This is a Light alert—check it out!
+                        </div>
+                        <div class="bg-gray-300 p-3 px-4 rounded-md text-gray-600 border-gray-300 border">
+                           This is a Dark alert—check it out!
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Card Footer Area -->
+
+               </div>
+               <!-- /.Card Footer -->
+
+
+               <div class="relative">
+                  <pre class="language-markup"
+                     tabindex="0"><code class="language-markup"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-indigo-100 p-3 px-4 rounded-md text-indigo-700 border-indigo-300 border<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                           This is a primary alert—check it out!
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-green-100 p-3 px-4 rounded-md text-green-700 border-green-300 border<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                           This is a success alert—check it out!
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-amber-100 p-3 px-4 rounded-md text-amber-700 border-amber-300 border<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                           This is a danger alert—check it out!
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-red-100 p-3 px-4 rounded-md text-red-700 border-red-300 border<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                           This is a danger alert—check it out!
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-cyan-100 p-3 px-4 rounded-md text-cyan-700 border-cyan-300 border<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                           This is a info alert—check it out!
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-gray-100 p-3 px-4 rounded-md text-gray-700 border-gray-300 border<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                           This is a Light alert—check it out!
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>bg-gray-300 p-3 px-4 rounded-md text-gray-600 border-gray-300 border<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+                           This is a Dark alert—check it out!
+                        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span></code></pre>
+               </div>
+
+            </div>
+            <!-- Solid Color Alert Start -->
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-bold">
+                     Solid color variants
+                  </h3>
+                  <p class="text-sm text-slate-500">
+                     Alert components example with soft color variants.
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="space-y-4">
+                        <div class="bg-indigo-600 p-3 px-4 rounded-md text-white border-indigo-600 border">
+                           This is a primary alert—check it out!
+                        </div>
+                        <div class="bg-green-600 p-3 px-4 rounded-md text-white border-green-600 border">
+                           This is a success alert—check it out!
+                        </div>
+                        <div class="bg-amber-600 p-3 px-4 rounded-md text-white border-amber-600 border">
+                           This is a danger alert—check it out!
+                        </div>
+                        <div class="bg-red-600 p-3 px-4 rounded-md text-white border-red-600 border">
+                           This is a danger alert—check it out!
+                        </div>
+                        <div class="bg-cyan-600 p-3 px-4 rounded-md text-white border-cyan-600 border">
+                           This is a info alert—check it out!
+                        </div>
+                        <div class="bg-gray-400 p-3 px-4 rounded-md text-white border-gray-400 border">
+                           This is a Light alert—check it out!
+                        </div>
+                        <div class="bg-gray-900 p-3 px-4 rounded-md text-white border-gray-900 border">
+                           This is a Dark alert—check it out!
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- Solid Color Alert End -->
+            <!-- Alert with Icon Start -->
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-bold">
+                     Alert with Icon
+                  </h3>
+                  <p class="text-sm text-slate-500">
+                     Alert with Icon components example with solid color variants.
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="space-y-4">
+                        <div class="bg-indigo-100 p-3 px-4 rounded-md text-indigo-700 border-indigo-300 border">
+                           <div class="flex">
+                              <div class="flex-shrink-0">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-circle-fill h-4 w-4 text-indigo-600 mt-1" viewBox="0 0 16 16">
+                                    <path
+                                       d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                 </svg>
+                              </div>
+                              <div class="ml-2">An example alert with an icon</div>
+                           </div>
+                        </div>
+                        <div class="bg-green-100 p-3 px-4 rounded-md text-green-700 border-green-300 border">
+                           <div class="flex">
+                              <div class="flex-shrink-0">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-check-circle-fill h-4 w-4 text-green-600 mt-1" viewBox="0 0 16 16">
+                                    <path
+                                       d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                                 </svg>
+                              </div>
+                              <div class="ml-2">An example alert with an icon</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- Alert with Icon End -->
+            <!-- Alert Description Start -->
+            <div class="py-6">
+               <div class="mb-5">
+                  <h3 class="text-xl text-slate-800 font-bold">
+                     Alert With description
+                  </h3>
+                  <p class="text-sm text-slate-500">
+                     Alert with Icon components example with solid color variants.
+                  </p>
+               </div>
+               <!-- Card Footer -->
+               <div class="border border-slate-200 rounded-lg bg-white">
+                  <!-- Card Body -->
+                  <div class="p-5">
+                     <div class="space-y-4">
+                        <div class="bg-amber-100 p-3 px-4 rounded-md text-amber-700 border-amber-300 border">
+                           <h3 class="text-lg font-bold mb-3">
+                              A problem has been occurred while submitting your data.
+                           </h3>
+                           <p class="text-sm">
+                              Aww yeah, you successfully read this important alert
+                              message. This example text is going to run a bit longer
+                              so that you can see how spacing within an alert works
+                              with this kind of content.
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- Card Footer Area -->
+                  <div class="bg-slate-100 rounded-b-lg p-3 px-5 border-t space-x-5">
+                     <a href="#" class="h-7 w-7 text-slate-500 hover:text-indigo-600 text-xs font-medium">
+                        HTML
+                     </a>
+                  </div>
+               </div>
+               <!-- /.Card Footer -->
+            </div>
+            <!-- Alert Description End -->
+            <!-- Alert End -->
+         </div>
+      </main>
+      <!-- /.Main End -->
+   </div>
+   <!-- Main JS -->
+   <script type="module" src="./asstes/js/main.js"></script>
+
+</body>
+
+</html>
