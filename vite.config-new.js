@@ -1,14 +1,14 @@
 // vite.config.js
 import { defineConfig } from 'vite'
 import glob from "glob";
-import path from "path";
+import { resolve } from 'path'
 import handlebars from 'vite-plugin-handlebars';
 
  
 export default defineConfig({
   // ...
   base: './',
-  root: path.resolve(__dirname, 'src'),
+  root: resolve(__dirname, 'src'),
 
   // Server https://vitejs.dev/config/server-options.html
   server:{
@@ -23,7 +23,11 @@ export default defineConfig({
     sourcemap: true,
     emptyOutDir: true,
     rollupOptions: {
-      input: glob.sync(path.resolve(__dirname, "src", "*.html")),
+      //input: glob.sync(resolve(__dirname, "src", "*.html")),
+      input: {
+        main: resolve(__dirname, 'src/*.html'),
+        js: resolve(__dirname, 'src/asstes/js/*.js'),
+      },
       
       
       output: {
@@ -52,7 +56,7 @@ export default defineConfig({
   },
   plugins: [
     handlebars({
-      partialDirectory: path.resolve(__dirname, "src", 'partials', ),
+      partialDirectory: resolve(__dirname, "src", 'partials', ),
       // reloadOnPartialChange: true,
       
     }),
