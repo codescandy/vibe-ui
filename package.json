@@ -30,16 +30,18 @@
     "type": "git",
     "url": "git+https://github.com/codescandy/vibe-ui.git"
   },
-  "keywords": ["template",
-  "starter-template",
-  "tailwind",
-  "tailwindcss",
-  "tailwind-css",
-  "vite",
-  "vitejs",
-  "vite-template",
-  "vitejs-template",
-  "vite-tailwind"],
+  "keywords": [
+    "template",
+    "starter-template",
+    "tailwind",
+    "tailwindcss",
+    "tailwind-css",
+    "vite",
+    "vitejs",
+    "vite-template",
+    "vitejs-template",
+    "vite-tailwind"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {

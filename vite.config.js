@@ -23,7 +23,7 @@ export default defineConfig({
     sourcemap: true,
     emptyOutDir: true,
     rollupOptions: {
-      input: glob.sync(path.resolve(__dirname, "src", "*.html")),
+      input: glob.sync(path.resolve(__dirname, "src", "**/*.html")),
       
       
       output: {
